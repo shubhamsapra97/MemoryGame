@@ -1,0 +1,47 @@
+/*
+.cardy{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    display: block;
+}
+
+#board{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+}*/
+
+
+#board{
+	background:#CCC;
+	border:#999 1px solid;
+	width:670px;
+	height:590px;
+	padding:24px;
+	margin:0px auto;
+}
+.cardy{
+/*	background: url(tile_bg.jpg) no-repeat;*/
+	border:#000 1px solid;
+	width:95px;
+	height:75px;
+	float:left;
+	margin:10px;
+	padding:25px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+}
+.cardy1{
+/*	background: url(tile_bg.jpg) no-repeat;*/
+	border:#000 1px solid;
+	width:145px;
+	height:130px;
+	float:left;
+	margin:10px;
+	font-size:64px;
+	cursor:pointer;
+    text-align: center;
+    margin: 10;
+}
