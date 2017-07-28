@@ -13,7 +13,7 @@ This project is a memory game that demonstrates effective use of HMTL, CSS and O
 
 The Game Board consists of 16 cards where cards are randomly arranged. Each card looks identical from front view but consists of diff logos of csgo global offensive on back view.
      
-     **On Each Turn:**
+     On Each Turn:
         •Click on the card to reveal its underlying logo.
         •Click on the second card to match the first card.
         •If both the card logos match , then cards remain flipped over.
@@ -31,4 +31,4 @@ The Game Board consists of 16 cards where cards are randomly arranged. Each card
     •Font-awesome.css
     •Google Fonts
     
-•ENJOY!!  [DEMO](https://shubhamsapra97.github.io/MemoryGame/)
+**ENJOY!!**    [**DEMO**](https://shubhamsapra97.github.io/MemoryGame/)
