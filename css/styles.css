@@ -1,40 +1,99 @@
-/*
-.cardy{
-    width: 100px;
-    height: 100px;
-    background-color: grey;
-    display: block;
+#info{
+    display: flex;
+}
+
+#moves1{
+    padding-left: 330px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#timer1{
+    padding-left: 235px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#restart1{
+    padding-left: 235px;
+    font-size: 20px;
+}
+
+body{
+    background-image: url('../images/50.jpg');
+}
+
+#heading{
+    margin: 0;
+}
+
+.play-again{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#GameStat{
+    display: flex;
+}
+
+.time{
+    padding-top: 2px;
+}
+
+#timer{
+    font-size: 25px;
+}
+
+.modal-data{
+    margin-left: 13vw;
+    margin-top: 30px;
+}
+
+#winModal{
+  display: none;
+  z-index: 1;
+  position: fixed;
+  width: 50%;
+  height: 50%;
+  background-color: #006666;
+  margin-left: 25vw;
+}
+
+.star{
+    font-size: 30px;
+}
+
+.fa-star{
+    color: yellow;
 }
 
 #board{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: blue;
-}*/
-
-
-#board{
-	background:#CCC;
+	background:#006666;
 	border:#999 1px solid;
 	width:670px;
 	height:590px;
 	padding:24px;
 	margin:0px auto;
+    position: relative;
 }
-.cardy{
-/*	background: url(tile_bg.jpg) no-repeat;*/
-	border:#000 1px solid;
-	width:95px;
-	height:80px;
-	float:left;
-	margin:10px;
-	padding:25px;
-	font-size:64px;
-	cursor:pointer;
-	text-align:center;
+
+#restart2{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: 3px;
 }
+
 .cardy1{
-/*	background: url(tile_bg.jpg) no-repeat;*/
 	border:#000 1px solid;
 	width:145px;
 	height:130px;
@@ -44,4 +103,69 @@
 	cursor:pointer;
     text-align: center;
     margin: 10;
+}
+
+h2{
+    font-size: 38px;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width: 750px) {
+
+    #winModal{
+        width: 100vw;
+        margin: 0;
+    }
+
+    .modal-data{
+        margin-left: 27vw;
+        margin-top: 27px;
+    }
+
+    #timer1,#restart1{
+        padding: 0;
+        padding-left: 25vw;
+    }
+
+    #moves1{
+        padding: 0;
+        padding-left: 10vw;
+    }
+
+    .cardy1{
+        width: 19vw;
+        height: 19vh;
+    }
+
+}
+
+@media only screen and (max-width: 1125px) {
+
+    #timer1,#restart1{
+        padding: 0;
+        padding-left: 20vw;
+    }
+
+    #moves1{
+        padding: 0;
+        padding-left: 20vw;
+    }
+
+}
+
+@media only screen and (max-width: 591px) {
+    .cardy1{
+        width: 18vw;
+        height: 18vh;
+    }
+
+    #board{
+        width: 95vw;
+        height: 85vh;
+    }
+
 }
