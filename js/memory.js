@@ -52,7 +52,6 @@ var flipCard = function(id, Cardy) {
     if (tempArray.length <= 1) {
         moves += 1;
         Moves.innerHTML = moves;
-        document.getElementById(id).className = "card card123";
         document.getElementById(id).innerHTML = " ";
         document.getElementById(id).innerHTML = '<img class="cardy1" src=' + Cardy + '>';
         tempArray.push(Cardy);
