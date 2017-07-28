@@ -1,6 +1,7 @@
 MEMORY CARD:
 
 Project Purpose:
+
 This project is a memory game that demonstrates effective use of HMTL, CSS and Object Oriented JavaScript.
 
 How To Load The Game:
@@ -9,6 +10,7 @@ How To Load The Game:
     •Open index.html file in your default browser.
     
 How To Play The Game:
+
 The Game Board consists of 16 cards where cards are randomly arranged. Each card looks identical from front view but consists of diff logos of csgo global offensive on back view.
      
      On Each Turn:
