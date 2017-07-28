@@ -1,7 +1,7 @@
 MEMORY CARD:
 
 Project Purpose:
-•This project is a memory game that demonstrates effective use of HMTL, CSS and Object Oriented JavaScript.
+This project is a memory game that demonstrates effective use of HMTL, CSS and Object Oriented JavaScript.
 
 How To Load The Game:
 
