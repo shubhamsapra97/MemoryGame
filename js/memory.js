@@ -59,7 +59,7 @@ var flipCard = function(id, Cardy) {
         moves += 1;
 
         //Start TIMER on First Click.
-        if (moves == 8) {
+        if (moves == 1) {
             TimeElapsed();
         }
 
@@ -91,7 +91,7 @@ function Functionality() {
     //Result Calculation.
     if (tempArray[0] === tempArray[1] && tempArray.length !== 0) {
         combo++;
-        if (combo == 1) {
+        if (combo == 8) {
             clearInterval(timer);
             document.getElementById('timer').innerHTML = time;
             displayStars(moves / 2);
