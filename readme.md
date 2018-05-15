@@ -31,4 +31,4 @@ The Game Board consists of 16 cards where cards are randomly arranged. Each card
     •Font-awesome.css
     •Google Fonts
     
-**ENJOY!!**    [**DEMO**](https://shubhamsapra97.github.io/MemoryGame/)
+**ENJOY!!**    [**DEMO**](https://shubhamsapra97.github.io/Memory_Game/)
